@@ -52,6 +52,59 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		517E012F2964D7A300144F24 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				519379A9296385BA006473D6 /* EcommerceSwiftUIApp.swift */,
+				519379AB296385BA006473D6 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		517E01302964D7C500144F24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				517E01322964D7D500144F24 /* Details */,
+				517E01312964D7CF00144F24 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		517E01312964D7CF00144F24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		517E01322964D7D500144F24 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		517E01332964D7E300144F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		517E01342964D7F400144F24 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		517E01352964D80200144F24 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		5193799D296385BA006473D6 = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +124,13 @@
 		519379A8296385BA006473D6 /* EcommerceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				517E012E2964D64F00144F24 /* Info.plist */,
+				517E012F2964D7A300144F24 /* App */,
+				517E01302964D7C500144F24 /* View */,
 				517E012D2964D5E800144F24 /* Data */,
-				519379A9296385BA006473D6 /* EcommerceSwiftUIApp.swift */,
-				519379AB296385BA006473D6 /* ContentView.swift */,
+				517E01332964D7E300144F24 /* Model */,
+				517E01342964D7F400144F24 /* Extension */,
+				517E01352964D80200144F24 /* Utility */,
+				517E012E2964D64F00144F24 /* Info.plist */,
 				519379AD296385BB006473D6 /* Assets.xcassets */,
 				519379AF296385BB006473D6 /* Preview Content */,
 			);
