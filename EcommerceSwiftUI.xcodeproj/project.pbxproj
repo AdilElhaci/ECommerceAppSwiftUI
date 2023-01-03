@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517E01292964D5CC00144F24 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 517E01252964D5CB00144F24 /* player.json */; };
+		517E012A2964D5CC00144F24 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 517E01262964D5CB00144F24 /* category.json */; };
+		517E012B2964D5CC00144F24 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 517E01272964D5CB00144F24 /* product.json */; };
+		517E012C2964D5CC00144F24 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 517E01282964D5CC00144F24 /* brand.json */; };
 		519379AA296385BA006473D6 /* EcommerceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519379A9296385BA006473D6 /* EcommerceSwiftUIApp.swift */; };
 		519379AC296385BA006473D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519379AB296385BA006473D6 /* ContentView.swift */; };
 		519379AE296385BB006473D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519379AD296385BB006473D6 /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		517E01252964D5CB00144F24 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		517E01262964D5CB00144F24 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		517E01272964D5CB00144F24 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		517E01282964D5CC00144F24 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		517E012E2964D64F00144F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		519379A6296385BA006473D6 /* EcommerceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519379A9296385BA006473D6 /* EcommerceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceSwiftUIApp.swift; sourceTree = "<group>"; };
 		519379AB296385BA006473D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517E012D2964D5E800144F24 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				517E01282964D5CC00144F24 /* brand.json */,
+				517E01262964D5CB00144F24 /* category.json */,
+				517E01252964D5CB00144F24 /* player.json */,
+				517E01272964D5CB00144F24 /* product.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		5193799D296385BA006473D6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +71,8 @@
 		519379A8296385BA006473D6 /* EcommerceSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				517E012E2964D64F00144F24 /* Info.plist */,
+				517E012D2964D5E800144F24 /* Data */,
 				519379A9296385BA006473D6 /* EcommerceSwiftUIApp.swift */,
 				519379AB296385BA006473D6 /* ContentView.swift */,
 				519379AD296385BB006473D6 /* Assets.xcassets */,
@@ -125,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517E01292964D5CC00144F24 /* player.json in Resources */,
 				519379B1296385BB006473D6 /* Preview Assets.xcassets in Resources */,
 				519379AE296385BB006473D6 /* Assets.xcassets in Resources */,
+				517E012A2964D5CC00144F24 /* category.json in Resources */,
+				517E012B2964D5CC00144F24 /* product.json in Resources */,
+				517E012C2964D5CC00144F24 /* brand.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +296,12 @@
 				DEVELOPMENT_TEAM = 84Q863499G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommerceSwiftUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecomo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +326,12 @@
 				DEVELOPMENT_TEAM = 84Q863499G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommerceSwiftUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Ecomo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
