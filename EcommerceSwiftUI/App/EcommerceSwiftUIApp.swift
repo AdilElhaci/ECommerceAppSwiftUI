@@ -12,7 +12,7 @@ struct EcommerceSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             
-            ContentView()
+            HomePage()
         }
     }
 }
