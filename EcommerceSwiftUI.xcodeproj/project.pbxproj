@@ -18,6 +18,7 @@
 		519379AC296385BA006473D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519379AB296385BA006473D6 /* ContentView.swift */; };
 		519379AE296385BB006473D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519379AD296385BB006473D6 /* Assets.xcassets */; };
 		519379B1296385BB006473D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519379B0296385BB006473D6 /* Preview Assets.xcassets */; };
+		51AFAB212969FFF9001B4A24 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AFAB202969FFF9001B4A24 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		519379AB296385BA006473D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		519379AD296385BB006473D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		519379B0296385BB006473D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51AFAB202969FFF9001B4A24 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		517E01342964D7F400144F24 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				51AFAB202969FFF9001B4A24 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				519379AC296385BA006473D6 /* ContentView.swift in Sources */,
 				519379AA296385BA006473D6 /* EcommerceSwiftUIApp.swift in Sources */,
+				51AFAB212969FFF9001B4A24 /* CodableBundleExtension.swift in Sources */,
 				517E01372964D8CA00144F24 /* Constant.swift in Sources */,
 				518A8CF12966178E005D607B /* HomePage.swift in Sources */,
 				518A8CF32966196D005D607B /* NavigationBarView.swift in Sources */,
